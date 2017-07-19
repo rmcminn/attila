@@ -940,7 +940,13 @@ img {
 }
 
 .inner {
-    max-width: 32em;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0 2em
+}
+
+.inner-article {
+    max-width: 90%;
     margin: 0 auto;
     padding: 0 2em
 }

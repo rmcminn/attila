@@ -18,7 +18,7 @@
           </span>
           {% endif %}
           <span id="menu-button" class="nav-button">
-            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+            <a class="menu-button"><i class="fa fa-bars"></i> Menu</a>
           </span>
         </nav>
         <h1 class="blog-name"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
@@ -31,7 +31,7 @@
             <div class="blog-cover cover" style="background-color: {{ HEADER_COLOR }}">
         {% else %}
             <div class="blog-cover cover" style="background-image: url('{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/home-bg.jpg')">
-        {% endif %}        
+        {% endif %}
       </div>
     </header>
 
@@ -44,4 +44,4 @@
     {% include "partials/loop.html" %}
   </main>
 </div>
-{% endblock content %}    
+{% endblock content %}
